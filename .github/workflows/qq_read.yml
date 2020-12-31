@@ -6,6 +6,11 @@ on:
     - cron: '*/5 * * * *'
   watch:
     type: [started]
+  workflow_run:
+    workflows: ["企鹅读书"]
+    branches: [main]
+    types: 
+      - completed
 
 jobs:
   build:
