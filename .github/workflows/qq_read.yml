@@ -7,7 +7,7 @@ on:
   watch:
     type: [started]
   workflow_run:
-    workflows: ["企鹅读书"]
+    workflows: ["企鹅读书2"]
     branches: [master]
     types: 
       - completed
