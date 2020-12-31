@@ -2,10 +2,10 @@ name: 企鹅读书
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
-  watch:
-    type: [started]
+ # schedule:
+   # - cron: '*/5 * * * *'
+ # watch:
+ #   type: [started]
   workflow_run:
     workflows: ["企鹅读书2"]
     branches: [master]
