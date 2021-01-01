@@ -6,12 +6,7 @@ on:
     - cron: '*/5 * * * *'
   watch:
     type: [started]
-  workflow_run:
-    workflows: ["企鹅读书4"]
-    branches: [master]
-    types: 
-      - completed
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
